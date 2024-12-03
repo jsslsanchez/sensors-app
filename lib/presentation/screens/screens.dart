@@ -8,3 +8,7 @@ export 'sensors/compass_screen.dart';
 export 'sensors/gyroscope_ball_screen.dart';
 export 'sensors/gyroscope_screen.dart';
 export 'sensors/magnetometer_screen.dart';
+
+export 'location/controlled_map_screen.dart';
+export 'location/location_screen.dart';
+export 'location/map_screen.dart';

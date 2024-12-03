@@ -14,6 +14,10 @@ const IconData accelerometerIcon = Icons.speed;
 const IconData magnetometerIcon = Icons.explore_outlined;
 const IconData gyroscopeBallIcon = Icons.sports_baseball_outlined;
 const IconData compassIcon = Icons.explore;
+const IconData locationIcon = Icons.pin_drop;
+const IconData mapsIcon = Icons.map_outlined;
+const IconData controllIcon = Icons.gamepad_outlined;
+
 
 final menuItems = <MenuItem>[
   MenuItem('Giróscopio', gyroscopeIcon, '/gyroscope'),
@@ -21,6 +25,10 @@ final menuItems = <MenuItem>[
   MenuItem('Magnetometro', magnetometerIcon, '/magnetometer'),
   MenuItem('Giróscopio Ball', gyroscopeBallIcon, '/gyroscope-ball'),
   MenuItem('Brújula', compassIcon, '/compass'),
+  MenuItem('Ubicación', locationIcon, '/location'),
+  MenuItem('Mapas', mapsIcon, '/maps'),
+  MenuItem('Control', controllIcon, '/controlled-map'),
+
 ];
 
 class MainMenu extends StatelessWidget {
